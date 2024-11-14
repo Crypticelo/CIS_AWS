@@ -86,10 +86,18 @@ def filter_by_state_and_type(ec2_resource, instance_state, instance_type):
 
     return instances
 
+def stop_instance(ec2_resource, instance_state, instance_type):
+   running_instances = filter_by_state_and_type(ec2_resource, instance_state, instance_type)
+   for instance in running_instances:
+       instance.stop()
+       print(f'Stopping EC2 instance: {instance.id}')
+       instance.wait_until_stopped()
+       print(f'EC2 instance "{instance.id}" has been stopped')
+
 if __name__ == "__main__":
     ec2_resource = boto3.resource('ec2',
                                   aws_access_key_id='AKIAQR5EPTPOLYPNLYOI',
                                   aws_secret_access_key='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',
                                   region_name='us-east-1'
                                   )
-    filter_by_type(ec2_resource, instance_type='t2.micro')
+    list_instances(ec2_resource)
