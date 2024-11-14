@@ -29,10 +29,26 @@ def list_instances(ec2_resource):
        print(f'Public IPv4 address: {instance.public_ip_address}')
        print('-' * 60)
 
+def filter_by_state(ec2_resource, instance_state):
+   instances = ec2_resource.instances.filter(
+       Filters=[
+           {
+               'Name': 'instance-state-name',
+               'Values': [
+                   instance_state
+               ]
+           }
+       ]
+   )
+   print(f'Instances in state "{instance_state}":')
+   for instance in instances:
+       print(f' - Instance ID: {instance.id}')
+   return instances
+
 if __name__ == "__main__":
     ec2_resource = boto3.resource('ec2',
                                   aws_access_key_id='AKIAQR5EPTPOLYPNLYOI',
                                   aws_secret_access_key='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',
                                   region_name='us-east-1'
                                   )
-    list_instances(ec2_resource)
+    filter_by_state(ec2_resource, instance_state='running')
