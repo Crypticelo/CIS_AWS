@@ -45,6 +45,22 @@ def filter_by_state(ec2_resource, instance_state):
        print(f' - Instance ID: {instance.id}')
    return instances
 
+def filter_by_type(ec2_resource, instance_type):
+   instances = ec2_resource.instances.filter(
+       Filters=[
+           {
+               'Name': 'instance-type',
+               'Values': [
+                   instance_type
+               ]
+           }
+       ]
+   )
+   print(f'Instances of type "{instance_type}":')
+   for instance in instances:
+       print(f' - Instance ID: {instance.id}')
+   return instances
+
 if __name__ == "__main__":
     ec2_resource = boto3.resource('ec2',
                                   aws_access_key_id='AKIAQR5EPTPOLYPNLYOI',
