@@ -61,10 +61,35 @@ def filter_by_type(ec2_resource, instance_type):
        print(f' - Instance ID: {instance.id}')
    return instances
 
+
+def filter_by_state_and_type(ec2_resource, instance_state, instance_type):
+    instances = ec2_resource.instances.filter(
+        Filters=[
+            {
+                'Name': 'instance-type',
+                'Values': [
+                    instance_type
+                ]
+            },
+            {
+                'Name': 'instance-state-name',
+                'Values': [
+                    instance_state
+                ]
+            }
+        ]
+    )
+
+    print(f"Instances of state {instance_state} and type {instance_type}:")
+    for instance in instances:
+        print(f" - Instance ID: {instance.id}")
+
+    return instances
+
 if __name__ == "__main__":
     ec2_resource = boto3.resource('ec2',
                                   aws_access_key_id='AKIAQR5EPTPOLYPNLYOI',
                                   aws_secret_access_key='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',
                                   region_name='us-east-1'
                                   )
-    filter_by_state(ec2_resource, instance_state='running')
+    filter_by_type(ec2_resource, instance_type='t2.micro')
