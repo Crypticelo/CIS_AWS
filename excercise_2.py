@@ -94,10 +94,26 @@ def stop_instance(ec2_resource, instance_state, instance_type):
        instance.wait_until_stopped()
        print(f'EC2 instance "{instance.id}" has been stopped')
 
+def start_instance(ec2_resource, instance_state, instance_type):
+   instances = filter_by_state_and_type(ec2_resource, instance_state, instance_type)
+   for instance in instances:
+       instance.start()
+       print(f'Starting EC2 instance: {instance.id}')
+       instance.wait_until_running()
+       print(f'EC2 instance "{instance.id}" has been started')
+
+def terminate_instance(ec2_resource, instance_state, instance_type):
+   stopped_instances = filter_by_state_and_type(ec2_resource, instance_state, instance_type)
+   for instance in stopped_instances:
+       instance.terminate()
+       print(f'Terminating EC2 instance: {instance.id}')
+       instance.wait_until_terminated()
+       print(f'EC2 instance "{instance.id}" has been terminated')
+
 if __name__ == "__main__":
     ec2_resource = boto3.resource('ec2',
                                   aws_access_key_id='AKIAQR5EPTPOLYPNLYOI',
                                   aws_secret_access_key='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',
                                   region_name='us-east-1'
                                   )
-    list_instances(ec2_resource)
+    start_instance(ec2_resource, instance_state='stopping', instance_type='t2.micro')
