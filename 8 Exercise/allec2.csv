@@ -1,0 +1,558 @@
+name,mem,cpu,proc,storage,net,cost
+r5ad.24xlarge,768,96,AMD EPYC 7571,3600 GB                 (4 * 900 GB NVMe SSD),20,6.288
+r5a.24xlarge,768,96,AMD EPYC 7571,EBS only,20,5.424
+m5ad.24xlarge,384,96,AMD EPYC 7571,3600 GB                 (4 * 900 GB NVMe SSD),20,4.944
+r5ad.16xlarge,512,64,AMD EPYC 7571,2400 GB                 (4 * 600 GB NVMe SSD),12,4.192
+m5a.24xlarge,384,96,AMD EPYC 7571,EBS only,20,4.128
+r5a.16xlarge,512,64,AMD EPYC 7571,EBS only,12,3.616
+m5ad.16xlarge,256,64,AMD EPYC 7571,2400 GB                 (4 * 600 GB NVMe SSD),12,3.296
+r5ad.12xlarge,384,48,AMD EPYC 7571,1800 GB                 (2 * 900 GB NVMe SSD),10,3.144
+m5a.16xlarge,256,64,AMD EPYC 7571,EBS only,12,2.752
+r5a.12xlarge,384,48,AMD EPYC 7571,EBS only,10,2.712
+m5ad.12xlarge,192,48,AMD EPYC 7571,1800 GB                 (2 * 900 GB NVMe SSD),10,2.472
+r5ad.8xlarge,256,32,AMD EPYC 7571,1200 GB                 (2 * 600 GB NVMe SSD),Up to 10,2.096
+m5a.12xlarge,192,48,AMD EPYC 7571,EBS only,10,2.064
+r5a.8xlarge,256,32,AMD EPYC 7571,EBS only,Up to 10,1.808
+m5ad.8xlarge,128,32,AMD EPYC 7571,1200 GB                 (2 * 600 GB NVMe SSD),Up to 10,1.648
+m5a.8xlarge,128,32,AMD EPYC 7571,EBS only,Up to 10,1.376
+r5ad.4xlarge,128,16,AMD EPYC 7571,600 GB                 (2 * 300 GB NVMe SSD),Up to 10,1.048
+r5a.4xlarge,128,16,AMD EPYC 7571,EBS only,Up to 10,0.904
+m5ad.4xlarge,64,16,AMD EPYC 7571,600 GB                 (2 * 300 GB NVMe SSD),Up to 10,0.824
+m5a.4xlarge,64,16,AMD EPYC 7571,EBS only,Up to 10,0.688
+r5ad.2xlarge,64,8,AMD EPYC 7571,300 GB                 NVMe SSD,Up to 10,0.524
+r5a.2xlarge,64,8,AMD EPYC 7571,EBS only,Up to 10,0.452
+m5ad.2xlarge,32,8,AMD EPYC 7571,300 GB                 NVMe SSD,Up to 10,0.412
+m5a.2xlarge,32,8,AMD EPYC 7571,EBS only,Up to 10,0.344
+r5ad.xlarge,32,4,AMD EPYC 7571,150 GB                 NVMe SSD,Up to 10,0.262
+r5a.xlarge,32,4,AMD EPYC 7571,EBS only,Up to 10,0.226
+m5ad.xlarge,16,4,AMD EPYC 7571,150 GB                 NVMe SSD,Up to 10,0.206
+m5a.xlarge,16,4,AMD EPYC 7571,EBS only,Up to 10,0.172
+r5ad.large,16,2,AMD EPYC 7571,75 GB                 NVMe SSD,Up to 10,0.131
+r5a.large,16,2,AMD EPYC 7571,EBS only,Up to 10,0.113
+m5ad.large,8,2,AMD EPYC 7571,75 GB                 NVMe SSD,Up to 10,0.103
+m5a.large,8,2,AMD EPYC 7571,EBS only,Up to 10,0.086
+r6a.48xlarge,1536,192,AMD EPYC 7R13 Processor,EBS only,50,10.8864
+r6a.metal,1536,192,AMD EPYC 7R13 Processor,EBS only,50,10.8864
+m6a.48xlarge,768,192,AMD EPYC 7R13 Processor,EBS only,50,8.2944
+m6a.metal,768,192,AMD EPYC 7R13 Processor,EBS only,50,8.2944
+c6a.48xlarge,384,192,AMD EPYC 7R13 Processor,EBS only,50,7.344
+c6a.metal,384,192,AMD EPYC 7R13 Processor,EBS only,50,7.344
+r6a.32xlarge,1024,128,AMD EPYC 7R13 Processor,EBS only,50,7.2576
+m6a.32xlarge,512,128,AMD EPYC 7R13 Processor,EBS only,50,5.5296
+r6a.24xlarge,768,96,AMD EPYC 7R13 Processor,EBS only,37.5,5.4432
+c6a.32xlarge,256,128,AMD EPYC 7R13 Processor,EBS only,50,4.896
+m6a.24xlarge,384,96,AMD EPYC 7R13 Processor,EBS only,37.5,4.1472
+c6a.24xlarge,192,96,AMD EPYC 7R13 Processor,EBS only,37.5,3.672
+r6a.16xlarge,512,64,AMD EPYC 7R13 Processor,EBS only,25,3.6288
+m6a.16xlarge,256,64,AMD EPYC 7R13 Processor,EBS only,25,2.7648
+r6a.12xlarge,384,48,AMD EPYC 7R13 Processor,EBS only,18.75,2.7216
+c6a.16xlarge,128,64,AMD EPYC 7R13 Processor,EBS only,25,2.448
+m6a.12xlarge,192,48,AMD EPYC 7R13 Processor,EBS only,18.75,2.0736
+c6a.12xlarge,96,48,AMD EPYC 7R13 Processor,EBS only,18.75,1.836
+r6a.8xlarge,256,32,AMD EPYC 7R13 Processor,EBS only,12.5,1.8144
+m6a.8xlarge,128,32,AMD EPYC 7R13 Processor,EBS only,12.5,1.3824
+c6a.8xlarge,64,32,AMD EPYC 7R13 Processor,EBS only,12.5,1.224
+r6a.4xlarge,128,16,AMD EPYC 7R13 Processor,EBS only,Up to 12.5,0.9072
+m6a.4xlarge,64,16,AMD EPYC 7R13 Processor,EBS only,Up to 12.5,0.6912
+c6a.4xlarge,32,16,AMD EPYC 7R13 Processor,EBS only,Up to 12.5,0.612
+r6a.2xlarge,64,8,AMD EPYC 7R13 Processor,EBS only,Up to 12.5,0.4536
+m6a.2xlarge,32,8,AMD EPYC 7R13 Processor,EBS only,Up to 12.5,0.3456
+c6a.2xlarge,16,8,AMD EPYC 7R13 Processor,EBS only,Up to 12.5,0.306
+r6a.xlarge,32,4,AMD EPYC 7R13 Processor,EBS only,Up to 12.5,0.2268
+m6a.xlarge,16,4,AMD EPYC 7R13 Processor,EBS only,Up to 12.5,0.1728
+c6a.xlarge,8,4,AMD EPYC 7R13 Processor,EBS only,Up to 12.5,0.153
+r6a.large,16,2,AMD EPYC 7R13 Processor,EBS only,Up to 12.5,0.1134
+m6a.large,8,2,AMD EPYC 7R13 Processor,EBS only,Up to 12.5,0.0864
+c6a.large,4,2,AMD EPYC 7R13 Processor,EBS only,Up to 12.5,0.0765
+c5ad.24xlarge,192,96,AMD EPYC 7R32,3800 GB                 (2 * 1900 GB NVMe SSD),20,4.128
+c5a.24xlarge,192,96,AMD EPYC 7R32,EBS only,20,3.696
+c5ad.16xlarge,128,64,AMD EPYC 7R32,2400 GB                 (2 * 1200 GB NVMe SSD),20,2.752
+c5a.16xlarge,128,64,AMD EPYC 7R32,EBS only,20,2.464
+c5ad.12xlarge,96,48,AMD EPYC 7R32,1800 GB                 (2 * 900 GB NVMe SSD),12,2.064
+c5a.12xlarge,96,48,AMD EPYC 7R32,EBS only,12,1.848
+c5ad.8xlarge,64,32,AMD EPYC 7R32,1200 GB                 (2 * 600 GB NVMe SSD),10,1.376
+c5a.8xlarge,64,32,AMD EPYC 7R32,EBS only,10,1.232
+c5ad.4xlarge,32,16,AMD EPYC 7R32,600 GB                 (2 * 300 GB NVMe SSD),Up to 10,0.688
+c5a.4xlarge,32,16,AMD EPYC 7R32,EBS only,Up to 10,0.616
+c5ad.2xlarge,16,8,AMD EPYC 7R32,300 GB                 NVMe SSD,Up to 10,0.344
+c5a.2xlarge,16,8,AMD EPYC 7R32,EBS only,Up to 10,0.308
+c5ad.xlarge,8,4,AMD EPYC 7R32,150 GB                 NVMe SSD,Up to 10,0.172
+c5a.xlarge,8,4,AMD EPYC 7R32,EBS only,Up to 10,0.154
+c5ad.large,4,2,AMD EPYC 7R32,75 GB                 NVMe SSD,Up to 10,0.086
+c5a.large,4,2,AMD EPYC 7R32,EBS only,Up to 10,0.077
+a1.4xlarge,32,16,AWS Graviton Processor,EBS only,Up to 10,0.408
+a1.metal,32,16,AWS Graviton Processor,EBS only,Up to 10,0.408
+a1.2xlarge,16,8,AWS Graviton Processor,EBS only,Up to 10,0.204
+a1.xlarge,8,4,AWS Graviton Processor,EBS only,Up to 10,0.102
+a1.large,4,2,AWS Graviton Processor,EBS only,Up to 10,0.051
+a1.medium,2,1,AWS Graviton Processor,EBS only,Up to 10,0.0255
+im4gn.16xlarge,256,64,AWS Graviton2 Processor,30000 GB                 (4 * 7500 GB NVMe SSD),100,5.8207
+x2gd.16xlarge,1024,64,AWS Graviton2 Processor,3800 GB                 (2 * 1900 GB NVMe SSD),25,5.344
+x2gd.metal,1024,64,AWS Graviton2 Processor,3800 GB                 (2 * 1900 GB NVMe SSD),25,5.344
+i4g.16xlarge,512,64,AWS Graviton2 Processor,15000 GB                 (4 * 3750 GB NVMe SSD),37.5,4.9421
+is4gen.8xlarge,192,32,AWS Graviton2 Processor,30000 GB                 (4 * 7500 GB NVMe SSD),50,4.6104
+x2gd.12xlarge,768,48,AWS Graviton2 Processor,2850 GB                 (2 * 1425 GB NVMe SSD),20,4.008
+r6gd.16xlarge,512,64,AWS Graviton2 Processor,3800 GB                 (2 * 1900 GB NVMe SSD),25,3.6864
+r6gd.metal,512,64,AWS Graviton2 Processor,3800 GB                 (2 * 1900 GB NVMe SSD),25,3.6864
+r6g.16xlarge,512,64,AWS Graviton2 Processor,EBS only,25,3.2256
+r6g.metal,512,64,AWS Graviton2 Processor,EBS only,25,3.2256
+im4gn.8xlarge,128,32,AWS Graviton2 Processor,15000 GB                 (2 * 7500 GB NVMe SSD),50,2.9103
+m6gd.16xlarge,256,64,AWS Graviton2 Processor,3800 GB                 (2 * 1900 GB NVMe SSD),25,2.8928
+m6gd.metal,256,64,AWS Graviton2 Processor,3800 GB                 (2 * 1900 GB NVMe SSD),25,2.8928
+c6gn.16xlarge,128,64,AWS Graviton2 Processor,EBS only,100,2.7648
+r6gd.12xlarge,384,48,AWS Graviton2 Processor,2850 GB                 (2 * 1425 GB NVMe SSD),20,2.7648
+x2gd.8xlarge,512,32,AWS Graviton2 Processor,1900 GB                 NVMe SSD,12,2.672
+i4g.8xlarge,256,32,AWS Graviton2 Processor,7500 GB                 (2 * 3750 GB NVMe SSD),18.75,2.471
+m6g.16xlarge,256,64,AWS Graviton2 Processor,EBS only,25,2.464
+m6g.metal,256,64,AWS Graviton2 Processor,EBS only,25,2.464
+c6gd.16xlarge,128,64,AWS Graviton2 Processor,3800 GB                 (2 * 1900 GB NVMe SSD),25,2.4576
+c6gd.metal,128,64,AWS Graviton2 Processor,3800 GB                 (2 * 1900 GB NVMe SSD),25,2.4576
+r6g.12xlarge,384,48,AWS Graviton2 Processor,EBS only,20,2.4192
+is4gen.4xlarge,96,16,AWS Graviton2 Processor,15000 GB                 (2 * 7500 GB NVMe SSD),25,2.3052
+c6g.16xlarge,128,64,AWS Graviton2 Processor,EBS only,25,2.176
+c6g.metal,128,64,AWS Graviton2 Processor,EBS only,25,2.176
+m6gd.12xlarge,192,48,AWS Graviton2 Processor,2850 GB                 (2 * 1425 GB NVMe SSD),20,2.1696
+c6gn.12xlarge,96,48,AWS Graviton2 Processor,EBS only,75,2.0736
+m6g.12xlarge,192,48,AWS Graviton2 Processor,EBS only,20,1.848
+c6gd.12xlarge,96,48,AWS Graviton2 Processor,2850 GB                 (2 * 1425 GB NVMe SSD),20,1.8432
+r6gd.8xlarge,256,32,AWS Graviton2 Processor,1900 GB                 NVMe SSD,12,1.8432
+c6g.12xlarge,96,48,AWS Graviton2 Processor,EBS only,20,1.632
+r6g.8xlarge,256,32,AWS Graviton2 Processor,EBS only,12,1.6128
+im4gn.4xlarge,64,16,AWS Graviton2 Processor,7500 GB                 NVMe SSD,25,1.4552
+m6gd.8xlarge,128,32,AWS Graviton2 Processor,1900 GB                 NVMe SSD,12,1.4464
+c6gn.8xlarge,64,32,AWS Graviton2 Processor,EBS only,50,1.3824
+x2gd.4xlarge,256,16,AWS Graviton2 Processor,950 GB                 NVMe SSD,Up to 10,1.336
+i4g.4xlarge,128,16,AWS Graviton2 Processor,3750 GB                 NVMe SSD,Up to 25,1.2355
+m6g.8xlarge,128,32,AWS Graviton2 Processor,EBS only,12,1.232
+c6gd.8xlarge,64,32,AWS Graviton2 Processor,1900 GB                 NVMe SSD,12,1.2288
+is4gen.2xlarge,48,8,AWS Graviton2 Processor,7500 GB                 NVMe SSD,Up to 25,1.1526
+c6g.8xlarge,64,32,AWS Graviton2 Processor,EBS only,12,1.088
+r6gd.4xlarge,128,16,AWS Graviton2 Processor,950 GB                 NVMe SSD,Up to 10,0.9216
+r6g.4xlarge,128,16,AWS Graviton2 Processor,EBS only,Up to 10,0.8064
+im4gn.2xlarge,32,8,AWS Graviton2 Processor,3750 GB                 NVMe SSD,Up to 25,0.7276
+m6gd.4xlarge,64,16,AWS Graviton2 Processor,950 GB                 NVMe SSD,Up to 10,0.7232
+c6gn.4xlarge,32,16,AWS Graviton2 Processor,EBS only,Up to 25,0.6912
+x2gd.2xlarge,128,8,AWS Graviton2 Processor,475 GB                 NVMe SSD,Up to 10,0.668
+i4g.2xlarge,64,8,AWS Graviton2 Processor,1875 GB                 NVMe SSD,Up to 12,0.6178
+m6g.4xlarge,64,16,AWS Graviton2 Processor,EBS only,Up to 10,0.616
+c6gd.4xlarge,32,16,AWS Graviton2 Processor,950 GB                 NVMe SSD,Up to 10,0.6144
+is4gen.xlarge,24,4,AWS Graviton2 Processor,3750 GB                 NVMe SSD,Up to 25,0.5763
+c6g.4xlarge,32,16,AWS Graviton2 Processor,EBS only,Up to 10,0.544
+r6gd.2xlarge,64,8,AWS Graviton2 Processor,474 GB                 NVMe SSD,Up to 10,0.4608
+r6g.2xlarge,64,8,AWS Graviton2 Processor,EBS only,Up to 10,0.4032
+im4gn.xlarge,16,4,AWS Graviton2 Processor,1875 GB                 NVMe SSD,Up to 25,0.3638
+m6gd.2xlarge,32,8,AWS Graviton2 Processor,474 GB                 NVMe SSD,Up to 10,0.3616
+c6gn.2xlarge,16,8,AWS Graviton2 Processor,EBS only,Up to 25,0.3456
+x2gd.xlarge,64,4,AWS Graviton2 Processor,237 GB                 NVMe SSD,Up to 10,0.334
+i4g.xlarge,32,4,AWS Graviton2 Processor,937 GB                 NVMe SSD,Up to 10,0.3089
+m6g.2xlarge,32,8,AWS Graviton2 Processor,EBS only,Up to 10,0.308
+c6gd.2xlarge,16,8,AWS Graviton2 Processor,474 GB                 NVMe SSD,Up to 10,0.3072
+is4gen.large,12,2,AWS Graviton2 Processor,1875 GB                 NVMe SSD,Up to 25,0.2882
+c6g.2xlarge,16,8,AWS Graviton2 Processor,EBS only,Up to 10,0.272
+r6gd.xlarge,32,4,AWS Graviton2 Processor,237 GB                 NVMe SSD,Up to 10,0.2304
+r6g.xlarge,32,4,AWS Graviton2 Processor,EBS only,Up to 10,0.2016
+im4gn.large,8,2,AWS Graviton2 Processor,937 GB                 NVMe SSD,Up to 25,0.1819
+m6gd.xlarge,16,4,AWS Graviton2 Processor,237 GB                 NVMe SSD,Up to 10,0.1808
+c6gn.xlarge,8,4,AWS Graviton2 Processor,EBS only,Up to 25,0.1728
+x2gd.large,32,2,AWS Graviton2 Processor,118 GB                 NVMe SSD,Up to 10,0.167
+i4g.large,16,2,AWS Graviton2 Processor,468 GB                 NVMe SSD,Up to 10,0.1544
+m6g.xlarge,16,4,AWS Graviton2 Processor,EBS only,Up to 10,0.154
+c6gd.xlarge,8,4,AWS Graviton2 Processor,237 GB                 NVMe SSD,Up to 10,0.1536
+is4gen.medium,6,1,AWS Graviton2 Processor,937 GB                 NVMe SSD,Up to 25,0.1441
+c6g.xlarge,8,4,AWS Graviton2 Processor,EBS only,Up to 10,0.136
+r6gd.large,16,2,AWS Graviton2 Processor,118 GB                 NVMe SSD,Up to 10,0.1152
+r6g.large,16,2,AWS Graviton2 Processor,EBS only,Up to 10,0.1008
+m6gd.large,8,2,AWS Graviton2 Processor,118 GB                 NVMe SSD,Up to 10,0.0904
+c6gn.large,4,2,AWS Graviton2 Processor,EBS only,Up to 25,0.0864
+x2gd.medium,16,1,AWS Graviton2 Processor,59 GB                 NVMe SSD,Up to 10,0.0835
+m6g.large,8,2,AWS Graviton2 Processor,EBS only,Up to 10,0.077
+c6gd.large,4,2,AWS Graviton2 Processor,118 GB                 NVMe SSD,Up to 10,0.0768
+c6g.large,4,2,AWS Graviton2 Processor,EBS only,Up to 10,0.068
+r6gd.medium,8,1,AWS Graviton2 Processor,59 GB                 NVMe SSD,Up to 10,0.0576
+r6g.medium,8,1,AWS Graviton2 Processor,EBS only,Up to 10,0.0504
+m6gd.medium,4,1,AWS Graviton2 Processor,59 GB                 NVMe SSD,Up to 10,0.0452
+c6gn.medium,2,1,AWS Graviton2 Processor,EBS only,Up to 16,0.0432
+m6g.medium,4,1,AWS Graviton2 Processor,EBS only,Up to 10,0.0385
+c6gd.medium,2,1,AWS Graviton2 Processor,59 GB                 NVMe SSD,Up to 10,0.0384
+c6g.medium,2,1,AWS Graviton2 Processor,EBS only,Up to 10,0.034
+r7g.16xlarge,512,64,AWS Graviton3 Processor,EBS only,30,3.4272
+r7g.metal,512,64,AWS Graviton3 Processor,EBS only,30,3.4272
+m7g.16xlarge,256,64,AWS Graviton3 Processor,EBS only,30,2.6112
+m7g.metal,256,64,AWS Graviton3 Processor,EBS only,30,2.6112
+r7g.12xlarge,384,48,AWS Graviton3 Processor,EBS only,22.5,2.5704
+c7g.16xlarge,128,64,AWS Graviton3 Processor,EBS only,30,2.32
+c7g.metal,128,64,AWS Graviton3 Processor,EBS only,30,2.32
+m7g.12xlarge,192,48,AWS Graviton3 Processor,EBS only,22.5,1.9584
+c7g.12xlarge,96,48,AWS Graviton3 Processor,EBS only,22.5,1.74
+r7g.8xlarge,256,32,AWS Graviton3 Processor,EBS only,15,1.7136
+m7g.8xlarge,128,32,AWS Graviton3 Processor,EBS only,15,1.3056
+c7g.8xlarge,64,32,AWS Graviton3 Processor,EBS only,15,1.16
+r7g.4xlarge,128,16,AWS Graviton3 Processor,EBS only,Up to 15,0.8568
+m7g.4xlarge,64,16,AWS Graviton3 Processor,EBS only,Up to 15,0.6528
+c7g.4xlarge,32,16,AWS Graviton3 Processor,EBS only,Up to 15,0.58
+r7g.2xlarge,64,8,AWS Graviton3 Processor,EBS only,Up to 15,0.4284
+m7g.2xlarge,32,8,AWS Graviton3 Processor,EBS only,Up to 15,0.3264
+c7g.2xlarge,16,8,AWS Graviton3 Processor,EBS only,Up to 15,0.29
+r7g.xlarge,32,4,AWS Graviton3 Processor,EBS only,Up to 12.5,0.2142
+m7g.xlarge,16,4,AWS Graviton3 Processor,EBS only,Up to 12.5,0.1632
+c7g.xlarge,8,4,AWS Graviton3 Processor,EBS only,Up to 12.5,0.145
+r7g.large,16,2,AWS Graviton3 Processor,EBS only,Up to 12.5,0.1071
+m7g.large,8,2,AWS Graviton3 Processor,EBS only,Up to 12.5,0.0816
+c7g.large,4,2,AWS Graviton3 Processor,EBS only,Up to 12.5,0.0725
+r7g.medium,8,1,AWS Graviton3 Processor,EBS only,Up to 12.5,0.0536
+m7g.medium,4,1,AWS Graviton3 Processor,EBS only,Up to 12.5,0.0408
+c7g.medium,2,1,AWS Graviton3 Processor,EBS only,Up to 12.5,0.0363
+x1e.32xlarge,3904,128,High Frequency Intel Xeon E7-8880 v3 (Haswell),3840 GB                 (2 * 1920 GB SSD),25,26.688
+x1e.16xlarge,1952,64,High Frequency Intel Xeon E7-8880 v3 (Haswell),1920 GB                 SSD,10,13.344
+x1.32xlarge,1952,128,High Frequency Intel Xeon E7-8880 v3 (Haswell),3840 GB                 (2 * 1920 GB SSD),25,13.338
+x1e.8xlarge,976,32,High Frequency Intel Xeon E7-8880 v3 (Haswell),960 GB                 SSD,Up to 10,6.672
+x1.16xlarge,976,64,High Frequency Intel Xeon E7-8880 v3 (Haswell),1920 GB                 SSD,10,6.669
+x1e.4xlarge,488,16,High Frequency Intel Xeon E7-8880 v3 (Haswell),480 GB                 SSD,Up to 10,3.336
+x1e.2xlarge,244,8,High Frequency Intel Xeon E7-8880 v3 (Haswell),240 GB                 SSD,Up to 10,1.668
+x1e.xlarge,122,4,High Frequency Intel Xeon E7-8880 v3 (Haswell),120 GB                 SSD,Up to 10,0.834
+r6idn.32xlarge,1024,128,Intel Xeon 8375C (Ice Lake),7600 GB                 (4 * 1900 GB NVMe SSD),200,12.505
+r6idn.metal,1024,128,Intel Xeon 8375C (Ice Lake),7600 GB                 (4 * 1900 GB NVMe SSD),200,12.505
+r6in.32xlarge,1024,128,Intel Xeon 8375C (Ice Lake),EBS only,200,11.1571
+r6in.metal,1024,128,Intel Xeon 8375C (Ice Lake),EBS only,200,11.1571
+i4i.32xlarge,1024,128,Intel Xeon 8375C (Ice Lake),30000 GB                 (8 * 3750 GB NVMe SSD),75,10.9824
+i4i.metal,1024,128,Intel Xeon 8375C (Ice Lake),30000 GB                 (8 * 3750 GB NVMe SSD),75,10.982
+m6idn.32xlarge,512,128,Intel Xeon 8375C (Ice Lake),7600 GB                 (4 * 1900 GB NVMe SSD),200,10.1837
+m6idn.metal,512,128,Intel Xeon 8375C (Ice Lake),7600 GB                 (4 * 1900 GB NVMe SSD),200,10.1837
+r6id.32xlarge,1024,128,Intel Xeon 8375C (Ice Lake),7600 GB                 (4 * 1900 GB NVMe SSD),50,9.6768
+r6id.metal,1024,128,Intel Xeon 8375C (Ice Lake),7600 GB                 (4 * 1900 GB NVMe SSD),50,9.6768
+r6idn.24xlarge,768,96,Intel Xeon 8375C (Ice Lake),5700 GB                 (4 * 1425 GB NVMe SSD),150,9.3787
+m6in.32xlarge,512,128,Intel Xeon 8375C (Ice Lake),EBS only,200,8.9107
+m6in.metal,512,128,Intel Xeon 8375C (Ice Lake),EBS only,200,8.9107
+r6in.24xlarge,768,96,Intel Xeon 8375C (Ice Lake),EBS only,150,8.3678
+r6i.32xlarge,1024,128,Intel Xeon 8375C (Ice Lake),EBS only,50,8.064
+r6i.metal,1024,128,Intel Xeon 8375C (Ice Lake),EBS only,50,8.064
+m6idn.24xlarge,384,96,Intel Xeon 8375C (Ice Lake),5700 GB                 (4 * 1425 GB NVMe SSD),150,7.6378
+m6id.32xlarge,512,128,Intel Xeon 8375C (Ice Lake),7600 GB                 (4 * 1900 GB NVMe SSD),50,7.5936
+m6id.metal,512,128,Intel Xeon 8375C (Ice Lake),7600 GB                 (4 * 1900 GB NVMe SSD),50,7.5936
+c6in.32xlarge,256,128,Intel Xeon 8375C (Ice Lake),EBS only,200,7.2576
+c6in.metal,256,128,Intel Xeon 8375C (Ice Lake),EBS only,200,7.2576
+r6id.24xlarge,768,96,Intel Xeon 8375C (Ice Lake),5700 GB                 (4 * 1425 GB NVMe SSD),37.5,7.2576
+m6in.24xlarge,384,96,Intel Xeon 8375C (Ice Lake),EBS only,150,6.683
+c6id.32xlarge,256,128,Intel Xeon 8375C (Ice Lake),7600 GB                 (4 * 1900 GB NVMe SSD),50,6.4512
+c6id.metal,256,128,Intel Xeon 8375C (Ice Lake),7600 GB                 (4 * 1900 GB NVMe SSD),50,6.4512
+r6idn.16xlarge,512,64,Intel Xeon 8375C (Ice Lake),3800 GB                 (2 * 1900 GB NVMe SSD),100,6.2525
+m6i.32xlarge,512,128,Intel Xeon 8375C (Ice Lake),EBS only,50,6.144
+m6i.metal,512,128,Intel Xeon 8375C (Ice Lake),EBS only,50,6.144
+r6i.24xlarge,768,96,Intel Xeon 8375C (Ice Lake),EBS only,37.5,6.048
+m6id.24xlarge,384,96,Intel Xeon 8375C (Ice Lake),5700 GB                 (4 * 1425 GB NVMe SSD),37.5,5.6952
+r6in.16xlarge,512,64,Intel Xeon 8375C (Ice Lake),EBS only,100,5.5786
+i4i.16xlarge,512,64,Intel Xeon 8375C (Ice Lake),15000 GB                 (4 * 3750 GB NVMe SSD),37.5,5.491
+c6in.24xlarge,192,96,Intel Xeon 8375C (Ice Lake),EBS only,150,5.4432
+c6i.32xlarge,256,128,Intel Xeon 8375C (Ice Lake),EBS only,50,5.44
+c6i.metal,256,128,Intel Xeon 8375C (Ice Lake),EBS only,50,5.44
+m6idn.16xlarge,256,64,Intel Xeon 8375C (Ice Lake),3800 GB                 (2 * 1900 GB NVMe SSD),100,5.0918
+c6id.24xlarge,192,96,Intel Xeon 8375C (Ice Lake),5700 GB                 (4 * 1425 GB NVMe SSD),37.5,4.8384
+r6id.16xlarge,512,64,Intel Xeon 8375C (Ice Lake),3800 GB                 (2 * 1900 GB NVMe SSD),25,4.8384
+r6idn.12xlarge,384,48,Intel Xeon 8375C (Ice Lake),2850 GB                 (2 * 1425 GB NVMe SSD),75,4.6894
+m6i.24xlarge,384,96,Intel Xeon 8375C (Ice Lake),EBS only,37.5,4.608
+m6in.16xlarge,256,64,Intel Xeon 8375C (Ice Lake),EBS only,100,4.4554
+r6in.12xlarge,384,48,Intel Xeon 8375C (Ice Lake),EBS only,75,4.1839
+c6i.24xlarge,192,96,Intel Xeon 8375C (Ice Lake),EBS only,37.5,4.08
+r6i.16xlarge,512,64,Intel Xeon 8375C (Ice Lake),EBS only,25,4.032
+m6idn.12xlarge,192,48,Intel Xeon 8375C (Ice Lake),2850 GB                 (2 * 1425 GB NVMe SSD),75,3.8189
+m6id.16xlarge,256,64,Intel Xeon 8375C (Ice Lake),3800 GB                 (2 * 1900 GB NVMe SSD),25,3.7968
+c6in.16xlarge,128,64,Intel Xeon 8375C (Ice Lake),EBS only,100,3.6288
+r6id.12xlarge,384,48,Intel Xeon 8375C (Ice Lake),2850 GB                 (2 * 1425 GB NVMe SSD),18.75,3.6288
+m6in.12xlarge,192,48,Intel Xeon 8375C (Ice Lake),EBS only,75,3.3415
+c6id.16xlarge,128,64,Intel Xeon 8375C (Ice Lake),3800 GB                 (2 * 1900 GB NVMe SSD),25,3.2256
+r6idn.8xlarge,256,32,Intel Xeon 8375C (Ice Lake),1900 GB                 NVMe SSD,50,3.1262
+m6i.16xlarge,256,64,Intel Xeon 8375C (Ice Lake),EBS only,25,3.072
+r6i.12xlarge,384,48,Intel Xeon 8375C (Ice Lake),EBS only,18.75,3.024
+m6id.12xlarge,192,48,Intel Xeon 8375C (Ice Lake),2850 GB                 (2 * 1425 GB NVMe SSD),18.75,2.8476
+r6in.8xlarge,256,32,Intel Xeon 8375C (Ice Lake),EBS only,50,2.7893
+i4i.8xlarge,256,32,Intel Xeon 8375C (Ice Lake),7500 GB                 (2 * 3750 GB NVMe SSD),18.75,2.746
+c6in.12xlarge,96,48,Intel Xeon 8375C (Ice Lake),EBS only,75,2.7216
+c6i.16xlarge,128,64,Intel Xeon 8375C (Ice Lake),EBS only,25,2.72
+m6idn.8xlarge,128,32,Intel Xeon 8375C (Ice Lake),1900 GB                 NVMe SSD,50,2.5459
+c6id.12xlarge,96,48,Intel Xeon 8375C (Ice Lake),2850 GB                 (2 * 1425 GB NVMe SSD),18.75,2.4192
+r6id.8xlarge,256,32,Intel Xeon 8375C (Ice Lake),1900 GB                 NVMe SSD,12.5,2.4192
+m6i.12xlarge,192,48,Intel Xeon 8375C (Ice Lake),EBS only,18.75,2.304
+m6in.8xlarge,128,32,Intel Xeon 8375C (Ice Lake),EBS only,50,2.2277
+c6i.12xlarge,96,48,Intel Xeon 8375C (Ice Lake),EBS only,18.75,2.04
+r6i.8xlarge,256,32,Intel Xeon 8375C (Ice Lake),EBS only,12.5,2.016
+m6id.8xlarge,128,32,Intel Xeon 8375C (Ice Lake),1900 GB                 NVMe SSD,12.5,1.8984
+c6in.8xlarge,64,32,Intel Xeon 8375C (Ice Lake),EBS only,50,1.8144
+c6id.8xlarge,64,32,Intel Xeon 8375C (Ice Lake),1900 GB                 NVMe SSD,12.5,1.6128
+r6idn.4xlarge,128,16,Intel Xeon 8375C (Ice Lake),950 GB                 NVMe SSD,Up to 50,1.5631
+m6i.8xlarge,128,32,Intel Xeon 8375C (Ice Lake),EBS only,12.5,1.536
+r6in.4xlarge,128,16,Intel Xeon 8375C (Ice Lake),EBS only,Up to 50,1.3946
+i4i.4xlarge,128,16,Intel Xeon 8375C (Ice Lake),3750 GB                 NVMe SSD,Up to 25,1.373
+c6i.8xlarge,64,32,Intel Xeon 8375C (Ice Lake),EBS only,12.5,1.36
+m6idn.4xlarge,64,16,Intel Xeon 8375C (Ice Lake),950 GB                 NVMe SSD,Up to 50,1.273
+r6id.4xlarge,128,16,Intel Xeon 8375C (Ice Lake),950 GB                 NVMe SSD,Up to 12.5,1.2096
+m6in.4xlarge,64,16,Intel Xeon 8375C (Ice Lake),EBS only,Up to 50,1.1138
+r6i.4xlarge,128,16,Intel Xeon 8375C (Ice Lake),EBS only,Up to 12.5,1.008
+m6id.4xlarge,64,16,Intel Xeon 8375C (Ice Lake),950 GB                 NVMe SSD,Up to 12.5,0.9492
+c6in.4xlarge,32,16,Intel Xeon 8375C (Ice Lake),EBS only,Up to 50,0.9072
+c6id.4xlarge,32,16,Intel Xeon 8375C (Ice Lake),950 GB                 NVMe SSD,Up to 12.5,0.8064
+r6idn.2xlarge,64,8,Intel Xeon 8375C (Ice Lake),474 GB                 NVMe SSD,Up to 40,0.7816
+m6i.4xlarge,64,16,Intel Xeon 8375C (Ice Lake),EBS only,Up to 12.5,0.768
+r6in.2xlarge,64,8,Intel Xeon 8375C (Ice Lake),EBS only,Up to 40,0.6973
+i4i.2xlarge,64,8,Intel Xeon 8375C (Ice Lake),1875 GB                 NVMe SSD,Up to 12,0.686
+c6i.4xlarge,32,16,Intel Xeon 8375C (Ice Lake),EBS only,Up to 12.5,0.68
+m6idn.2xlarge,32,8,Intel Xeon 8375C (Ice Lake),474 GB                 NVMe SSD,Up to 40,0.6365
+r6id.2xlarge,64,8,Intel Xeon 8375C (Ice Lake),474 GB                 NVMe SSD,Up to 12.5,0.6048
+m6in.2xlarge,32,8,Intel Xeon 8375C (Ice Lake),EBS only,Up to 40,0.5569
+r6i.2xlarge,64,8,Intel Xeon 8375C (Ice Lake),EBS only,Up to 12.5,0.504
+m6id.2xlarge,32,8,Intel Xeon 8375C (Ice Lake),474 GB                 NVMe SSD,Up to 12.5,0.4746
+c6in.2xlarge,16,8,Intel Xeon 8375C (Ice Lake),EBS only,Up to 40,0.4536
+c6id.2xlarge,16,8,Intel Xeon 8375C (Ice Lake),474 GB                 NVMe SSD,Up to 12.5,0.4032
+r6idn.xlarge,32,4,Intel Xeon 8375C (Ice Lake),237 GB                 NVMe SSD,Up to 30,0.3908
+m6i.2xlarge,32,8,Intel Xeon 8375C (Ice Lake),EBS only,Up to 12.5,0.384
+r6in.xlarge,32,4,Intel Xeon 8375C (Ice Lake),EBS only,Up to 30,0.3487
+i4i.xlarge,32,4,Intel Xeon 8375C (Ice Lake),937 GB                 NVMe SSD,Up to 10,0.343
+c6i.2xlarge,16,8,Intel Xeon 8375C (Ice Lake),EBS only,Up to 12.5,0.34
+m6idn.xlarge,16,4,Intel Xeon 8375C (Ice Lake),237 GB                 NVMe SSD,Up to 30,0.3182
+r6id.xlarge,32,4,Intel Xeon 8375C (Ice Lake),237 GB                 NVMe SSD,Up to 12.5,0.3024
+m6in.xlarge,16,4,Intel Xeon 8375C (Ice Lake),EBS only,Up to 30,0.2785
+r6i.xlarge,32,4,Intel Xeon 8375C (Ice Lake),EBS only,Up to 12.5,0.252
+m6id.xlarge,16,4,Intel Xeon 8375C (Ice Lake),237 GB                 NVMe SSD,Up to 12.5,0.2373
+c6in.xlarge,8,4,Intel Xeon 8375C (Ice Lake),EBS only,Up to 30,0.2268
+c6id.xlarge,8,4,Intel Xeon 8375C (Ice Lake),237 GB                 NVMe SSD,Up to 12.5,0.2016
+r6idn.large,16,2,Intel Xeon 8375C (Ice Lake),118 GB                 NVMe SSD,Up to 25,0.1954
+m6i.xlarge,16,4,Intel Xeon 8375C (Ice Lake),EBS only,Up to 12.5,0.192
+r6in.large,16,2,Intel Xeon 8375C (Ice Lake),EBS only,Up to 25,0.1743
+i4i.large,16,2,Intel Xeon 8375C (Ice Lake),468 GB                 NVMe SSD,Up to 10,0.172
+c6i.xlarge,8,4,Intel Xeon 8375C (Ice Lake),EBS only,Up to 12.5,0.17
+m6idn.large,8,2,Intel Xeon 8375C (Ice Lake),118 GB                 NVMe SSD,Up to 25,0.1591
+r6id.large,16,2,Intel Xeon 8375C (Ice Lake),118 GB                 NVMe SSD,Up to 12.5,0.1512
+m6in.large,8,2,Intel Xeon 8375C (Ice Lake),EBS only,Up to 25,0.1392
+r6i.large,16,2,Intel Xeon 8375C (Ice Lake),EBS only,Up to 12.5,0.126
+m6id.large,8,2,Intel Xeon 8375C (Ice Lake),118 GB                 NVMe SSD,Up to 12.5,0.1187
+c6in.large,4,2,Intel Xeon 8375C (Ice Lake),EBS only,Up to 25,0.1134
+c6id.large,4,2,Intel Xeon 8375C (Ice Lake),118 GB                 NVMe SSD,Up to 12.5,0.1008
+m6i.large,8,2,Intel Xeon 8375C (Ice Lake),EBS only,Up to 12.5,0.096
+c6i.large,4,2,Intel Xeon 8375C (Ice Lake),EBS only,Up to 12.5,0.085
+hs1.8xlarge,117,16,Intel Xeon E5-2650,49152 GB                 (24 * 2048 GB HDD),10,4.6
+c4.8xlarge,60,36,Intel Xeon E5-2666 v3 (Haswell),EBS only,10,1.591
+c4.4xlarge,30,16,Intel Xeon E5-2666 v3 (Haswell),EBS only,High,0.796
+c4.2xlarge,15,8,Intel Xeon E5-2666 v3 (Haswell),EBS only,High,0.398
+c4.xlarge,7.5,4,Intel Xeon E5-2666 v3 (Haswell),EBS only,High,0.199
+c4.large,3.75,2,Intel Xeon E5-2666 v3 (Haswell),EBS only,Moderate,0.1
+cr1.8xlarge,244,32,Intel Xeon E5-2670,240 GB                 (2 * 120 GB HDD),10,3.5
+cc2.8xlarge,60.5,32,Intel Xeon E5-2670,3360 GB                 (4 * 840 GB HDD),10,2
+i2.8xlarge,244,32,Intel Xeon E5-2670 v2 (Ivy Bridge),6400 GB                 (8 * 800 GB SSD),10,6.82
+i2.4xlarge,122,16,Intel Xeon E5-2670 v2 (Ivy Bridge),3200 GB                 (4 * 800 GB SSD),High,3.41
+r3.8xlarge,244,32,Intel Xeon E5-2670 v2 (Ivy Bridge),640 GB                 (2 * 320 GB SSD),10,2.66
+i2.2xlarge,61,8,Intel Xeon E5-2670 v2 (Ivy Bridge),1600 GB                 (2 * 800 GB SSD),High,1.705
+r3.4xlarge,122,16,Intel Xeon E5-2670 v2 (Ivy Bridge),320 GB                 SSD,High,1.33
+i2.xlarge,30.5,4,Intel Xeon E5-2670 v2 (Ivy Bridge),800 GB                 SSD,Moderate,0.853
+r3.2xlarge,61,8,Intel Xeon E5-2670 v2 (Ivy Bridge),160 GB                 SSD,High,0.665
+r3.xlarge,30.5,4,Intel Xeon E5-2670 v2 (Ivy Bridge),80 GB                 SSD,Moderate,0.333
+r3.large,15.25,2,Intel Xeon E5-2670 v2 (Ivy Bridge),32 GB                 SSD,Moderate,0.166
+m3.2xlarge,30,8,Intel Xeon E5-2670 v2 (Ivy Bridge/Sandy Bridge),160 GB                 (2 * 80 GB SSD),High,0.532
+m3.xlarge,15,4,Intel Xeon E5-2670 v2 (Ivy Bridge/Sandy Bridge),80 GB                 (2 * 40 GB SSD),High,0.266
+m3.large,7.5,2,Intel Xeon E5-2670 v2 (Ivy Bridge/Sandy Bridge),32 GB                 SSD,Moderate,0.133
+m3.medium,3.75,1,Intel Xeon E5-2670 v2 (Ivy Bridge/Sandy Bridge),4 GB                 SSD,Moderate,0.067
+d2.8xlarge,244,36,Intel Xeon E5-2676 v3 (Haswell),49152 GB                 (24 * 2048 GB HDD),10,5.52
+d2.4xlarge,122,16,Intel Xeon E5-2676 v3 (Haswell),24576 GB                 (12 * 2048 GB HDD),High,2.76
+m4.10xlarge,160,40,Intel Xeon E5-2676 v3 (Haswell),EBS only,10,2
+d2.2xlarge,61,8,Intel Xeon E5-2676 v3 (Haswell),12288 GB                 (6 * 2048 GB HDD),High,1.38
+m4.4xlarge,64,16,Intel Xeon E5-2676 v3 (Haswell),EBS only,High,0.8
+d2.xlarge,30.5,4,Intel Xeon E5-2676 v3 (Haswell),6144 GB                 (3 * 2048 GB HDD),Moderate,0.69
+m4.2xlarge,32,8,Intel Xeon E5-2676 v3 (Haswell),EBS only,High,0.4
+m4.xlarge,16,4,Intel Xeon E5-2676 v3 (Haswell),EBS only,High,0.2
+m4.large,8,2,Intel Xeon E5-2676 v3 (Haswell),EBS only,Moderate,0.1
+c3.8xlarge,60,32,Intel Xeon E5-2680 v2 (Ivy Bridge),640 GB                 (2 * 320 GB SSD),10,1.68
+c3.4xlarge,30,16,Intel Xeon E5-2680 v2 (Ivy Bridge),320 GB                 (2 * 160 GB SSD),High,0.84
+c3.2xlarge,15,8,Intel Xeon E5-2680 v2 (Ivy Bridge),160 GB                 (2 * 80 GB SSD),High,0.42
+c3.xlarge,7.5,4,Intel Xeon E5-2680 v2 (Ivy Bridge),80 GB                 (2 * 40 GB SSD),Moderate,0.21
+c3.large,3.75,2,Intel Xeon E5-2680 v2 (Ivy Bridge),32 GB                 (2 * 16 GB SSD),Moderate,0.105
+i3.16xlarge,488,64,Intel Xeon E5-2686 v4 (Broadwell),15200 GB                 (8 * 1900 GB NVMe SSD),25,4.992
+i3.metal,512,72,Intel Xeon E5-2686 v4 (Broadwell),15200 GB                 (8 * 1900 GB NVMe SSD),25,4.992
+r4.16xlarge,488,64,Intel Xeon E5-2686 v4 (Broadwell),EBS only,25,4.256
+h1.16xlarge,256,64,Intel Xeon E5-2686 v4 (Broadwell),16000 GB                 (8 * 2000 GB HDD),25,3.744
+m4.16xlarge,256,64,Intel Xeon E5-2686 v4 (Broadwell),EBS only,25,3.2
+i3.8xlarge,244,32,Intel Xeon E5-2686 v4 (Broadwell),7600 GB                 (4 * 1900 GB NVMe SSD),10,2.496
+r4.8xlarge,244,32,Intel Xeon E5-2686 v4 (Broadwell),EBS only,10,2.128
+h1.8xlarge,128,32,Intel Xeon E5-2686 v4 (Broadwell),8000 GB                 (4 * 2000 GB HDD),10,1.872
+i3.4xlarge,122,16,Intel Xeon E5-2686 v4 (Broadwell),3800 GB                 (2 * 1900 GB NVMe SSD),Up to 10,1.248
+r4.4xlarge,122,16,Intel Xeon E5-2686 v4 (Broadwell),EBS only,Up to 10,1.064
+h1.4xlarge,64,16,Intel Xeon E5-2686 v4 (Broadwell),4000 GB                 (2 * 2000 GB HDD),Up to 10,0.936
+i3.2xlarge,61,8,Intel Xeon E5-2686 v4 (Broadwell),1900 GB                 NVMe SSD,Up to 10,0.624
+r4.2xlarge,61,8,Intel Xeon E5-2686 v4 (Broadwell),EBS only,Up to 10,0.532
+h1.2xlarge,32,8,Intel Xeon E5-2686 v4 (Broadwell),2000 GB                 HDD,Up to 10,0.468
+i3.xlarge,30.5,4,Intel Xeon E5-2686 v4 (Broadwell),950 GB                 NVMe SSD,Up to 10,0.312
+r4.xlarge,30.5,4,Intel Xeon E5-2686 v4 (Broadwell),EBS only,Up to 10,0.266
+i3.large,15.25,2,Intel Xeon E5-2686 v4 (Broadwell),475 GB                 NVMe SSD,Up to 10,0.156
+r4.large,15.25,2,Intel Xeon E5-2686 v4 (Broadwell),EBS only,Up to 10,0.133
+m2.4xlarge,68.4,8,Intel Xeon Family,1680 GB                 (2 * 840 GB HDD),High,0.98
+c1.xlarge,7,8,Intel Xeon Family,1680 GB                 (4 * 420 GB HDD),High,0.52
+m2.2xlarge,34.2,4,Intel Xeon Family,850 GB                 HDD,Moderate,0.49
+m1.xlarge,15,4,Intel Xeon Family,1680 GB                 (4 * 420 GB HDD),High,0.35
+m2.xlarge,17.1,2,Intel Xeon Family,420 GB                 HDD,Moderate,0.245
+m1.large,7.5,2,Intel Xeon Family,840 GB                 (2 * 420 GB HDD),Moderate,0.175
+c1.medium,1.7,2,Intel Xeon Family,350 GB                 HDD,Moderate,0.13
+m1.medium,3.75,1,Intel Xeon Family,410 GB                 HDD,Moderate,0.087
+m1.small,1.7,1,Intel Xeon Family,160 GB                 HDD,Low,0.044
+c5n.18xlarge,192,72,Intel Xeon Platinum 8124M,EBS only,100,3.888
+c5n.metal,192,72,Intel Xeon Platinum 8124M,EBS only,100,3.888
+c5d.18xlarge,144,72,Intel Xeon Platinum 8124M,1800 GB                 (2 * 900 GB NVMe SSD),25,3.456
+c5.18xlarge,144,72,Intel Xeon Platinum 8124M,EBS only,25,3.06
+c5n.9xlarge,96,36,Intel Xeon Platinum 8124M,EBS only,50,1.944
+c5d.9xlarge,72,36,Intel Xeon Platinum 8124M,900 GB                 NVMe SSD,12,1.728
+c5.9xlarge,72,36,Intel Xeon Platinum 8124M,EBS only,12,1.53
+c5n.4xlarge,42,16,Intel Xeon Platinum 8124M,EBS only,Up to 25,0.864
+c5d.4xlarge,32,16,Intel Xeon Platinum 8124M,400 GB                 NVMe SSD,Up to 10,0.768
+c5.4xlarge,32,16,Intel Xeon Platinum 8124M,EBS only,Up to 10,0.68
+c5n.2xlarge,21,8,Intel Xeon Platinum 8124M,EBS only,Up to 25,0.432
+c5d.2xlarge,16,8,Intel Xeon Platinum 8124M,200 GB                 NVMe SSD,Up to 10,0.384
+c5.2xlarge,16,8,Intel Xeon Platinum 8124M,EBS only,Up to 10,0.34
+c5n.xlarge,10.5,4,Intel Xeon Platinum 8124M,EBS only,Up to 25,0.216
+c5d.xlarge,8,4,Intel Xeon Platinum 8124M,100 GB                 NVMe SSD,Up to 10,0.192
+c5.xlarge,8,4,Intel Xeon Platinum 8124M,EBS only,Up to 10,0.17
+c5n.large,5.25,2,Intel Xeon Platinum 8124M,EBS only,Up to 25,0.108
+c5d.large,4,2,Intel Xeon Platinum 8124M,50 GB                 NVMe SSD,Up to 10,0.096
+c5.large,4,2,Intel Xeon Platinum 8124M,EBS only,Up to 10,0.085
+z1d.12xlarge,384,48,Intel Xeon Platinum 8151,1800 GB                 (2 * 900 GB NVMe SSD),25,4.464
+z1d.metal,384,48,Intel Xeon Platinum 8151,1800 GB                 (2 * 900 GB NVMe SSD),25,4.464
+z1d.6xlarge,192,24,Intel Xeon Platinum 8151,900 GB                 NVMe SSD,12,2.232
+z1d.3xlarge,96,12,Intel Xeon Platinum 8151,450 GB                 NVMe SSD,Up to 10,1.116
+z1d.2xlarge,64,8,Intel Xeon Platinum 8151,300 GB                 NVMe SSD,Up to 10,0.744
+z1d.xlarge,32,4,Intel Xeon Platinum 8151,150 GB                 NVMe SSD,Up to 10,0.372
+z1d.large,16,2,Intel Xeon Platinum 8151,75 GB                 NVMe SSD,Up to 10,0.186
+i3en.24xlarge,768,96,Intel Xeon Platinum 8175,60000 GB                 (8 * 7500 GB NVMe SSD),100,10.848
+i3en.metal,768,96,Intel Xeon Platinum 8175,60000 GB                 (8 * 7500 GB NVMe SSD),100,10.848
+r5d.24xlarge,768,96,Intel Xeon Platinum 8175,3600 GB                 (4 * 900 GB NVMe SSD),25,6.912
+r5d.metal,768,96,Intel Xeon Platinum 8175,3600 GB                 (4 * 900 GB NVMe SSD),25,6.912
+r5.24xlarge,768,96,Intel Xeon Platinum 8175,EBS only,25,6.048
+r5.metal,768,96,Intel Xeon Platinum 8175,EBS only,25,6.048
+i3en.12xlarge,384,48,Intel Xeon Platinum 8175,30000 GB                 (4 * 7500 GB NVMe SSD),50,5.424
+m5d.24xlarge,384,96,Intel Xeon Platinum 8175,3600 GB                 (4 * 900 GB NVMe SSD),25,5.424
+m5d.metal,384,96,Intel Xeon Platinum 8175,3600 GB                 (4 * 900 GB NVMe SSD),25,5.424
+m5.24xlarge,384,96,Intel Xeon Platinum 8175,EBS only,25,4.608
+m5.metal,384,96,Intel Xeon Platinum 8175,EBS only,25,4.608
+r5d.16xlarge,512,64,Intel Xeon Platinum 8175,2400 GB                 (4 * 600 GB NVMe SSD),20,4.608
+r5.16xlarge,512,64,Intel Xeon Platinum 8175,EBS only,20,4.032
+m5d.16xlarge,256,64,Intel Xeon Platinum 8175,2400 GB                 (4 * 600 GB NVMe SSD),20,3.616
+r5d.12xlarge,384,48,Intel Xeon Platinum 8175,1800 GB                 (2 * 900 GB NVMe SSD),12,3.456
+m5.16xlarge,256,64,Intel Xeon Platinum 8175,EBS only,20,3.072
+r5.12xlarge,384,48,Intel Xeon Platinum 8175,EBS only,12,3.024
+i3en.6xlarge,192,24,Intel Xeon Platinum 8175,15000 GB                 (2 * 7500 GB NVMe SSD),25,2.712
+m5d.12xlarge,192,48,Intel Xeon Platinum 8175,1800 GB                 (2 * 900 GB NVMe SSD),12,2.712
+m5.12xlarge,192,48,Intel Xeon Platinum 8175,EBS only,12,2.304
+r5d.8xlarge,256,32,Intel Xeon Platinum 8175,1200 GB                 (2 * 600 GB NVMe SSD),10,2.304
+r5.8xlarge,256,32,Intel Xeon Platinum 8175,EBS only,10,2.016
+m5d.8xlarge,128,32,Intel Xeon Platinum 8175,1200 GB                 (2 * 600 GB NVMe SSD),10,1.808
+m5.8xlarge,128,32,Intel Xeon Platinum 8175,EBS only,10,1.536
+i3en.3xlarge,96,12,Intel Xeon Platinum 8175,7500 GB                 NVMe SSD,Up to 25,1.356
+r5d.4xlarge,128,16,Intel Xeon Platinum 8175,600 GB                 (2 * 300 GB NVMe SSD),Up to 10,1.152
+r5.4xlarge,128,16,Intel Xeon Platinum 8175,EBS only,Up to 10,1.008
+i3en.2xlarge,64,8,Intel Xeon Platinum 8175,5000 GB                 (2 * 2500 GB NVMe SSD),Up to 25,0.904
+m5d.4xlarge,64,16,Intel Xeon Platinum 8175,600 GB                 (2 * 300 GB NVMe SSD),Up to 10,0.904
+m5.4xlarge,64,16,Intel Xeon Platinum 8175,EBS only,Up to 10,0.768
+r5d.2xlarge,64,8,Intel Xeon Platinum 8175,300 GB                 NVMe SSD,Up to 10,0.576
+r5.2xlarge,64,8,Intel Xeon Platinum 8175,EBS only,Up to 10,0.504
+i3en.xlarge,32,4,Intel Xeon Platinum 8175,2500 GB                 NVMe SSD,Up to 25,0.452
+m5d.2xlarge,32,8,Intel Xeon Platinum 8175,300 GB                 NVMe SSD,Up to 10,0.452
+m5.2xlarge,32,8,Intel Xeon Platinum 8175,EBS only,Up to 10,0.384
+r5d.xlarge,32,4,Intel Xeon Platinum 8175,150 GB                 NVMe SSD,Up to 10,0.288
+r5.xlarge,32,4,Intel Xeon Platinum 8175,EBS only,Up to 10,0.252
+i3en.large,16,2,Intel Xeon Platinum 8175,1250 GB                 NVMe SSD,Up to 25,0.226
+m5d.xlarge,16,4,Intel Xeon Platinum 8175,150 GB                 NVMe SSD,Up to 10,0.226
+m5.xlarge,16,4,Intel Xeon Platinum 8175,EBS only,Up to 10,0.192
+r5d.large,16,2,Intel Xeon Platinum 8175,75 GB                 NVMe SSD,Up to 10,0.144
+r5.large,16,2,Intel Xeon Platinum 8175,EBS only,Up to 10,0.126
+m5d.large,8,2,Intel Xeon Platinum 8175,75 GB                 NVMe SSD,Up to 10,0.113
+m5.large,8,2,Intel Xeon Platinum 8175,EBS only,Up to 10,0.096
+x2iezn.12xlarge,1536,48,Intel Xeon Platinum 8252,EBS only,100,10.008
+x2iezn.metal,1536,48,Intel Xeon Platinum 8252,EBS only,100,10.008
+x2iezn.8xlarge,1024,32,Intel Xeon Platinum 8252,EBS only,75,6.672
+x2iezn.6xlarge,768,24,Intel Xeon Platinum 8252,EBS only,50,5.004
+m5zn.12xlarge,192,48,Intel Xeon Platinum 8252,EBS only,100,3.9641
+m5zn.metal,192,48,Intel Xeon Platinum 8252,EBS only,100,3.9641
+x2iezn.4xlarge,512,16,Intel Xeon Platinum 8252,EBS only,Up to 25,3.336
+m5zn.6xlarge,96,24,Intel Xeon Platinum 8252,EBS only,50,1.982
+x2iezn.2xlarge,256,8,Intel Xeon Platinum 8252,EBS only,Up to 25,1.668
+m5zn.3xlarge,48,12,Intel Xeon Platinum 8252,EBS only,Up to 25,0.991
+m5zn.2xlarge,32,8,Intel Xeon Platinum 8252,EBS only,Up to 25,0.6607
+m5zn.xlarge,16,4,Intel Xeon Platinum 8252,EBS only,Up to 25,0.3303
+m5zn.large,8,2,Intel Xeon Platinum 8252,EBS only,Up to 25,0.1652
+r5dn.24xlarge,768,96,Intel Xeon Platinum 8259 (Cascade Lake),3600 GB                 (4 * 900 GB NVMe SSD),100,8.016
+r5dn.metal,768,96,Intel Xeon Platinum 8259 (Cascade Lake),3600 GB                 (4 * 900 GB NVMe SSD),100,8.016
+r5b.24xlarge,768,96,Intel Xeon Platinum 8259 (Cascade Lake),EBS only,25,7.152
+r5b.metal,768,96,Intel Xeon Platinum 8259 (Cascade Lake),EBS only,25,7.152
+r5n.24xlarge,768,96,Intel Xeon Platinum 8259 (Cascade Lake),EBS only,100,7.152
+r5n.metal,768,96,Intel Xeon Platinum 8259 (Cascade Lake),EBS only,100,7.152
+m5dn.24xlarge,384,96,Intel Xeon Platinum 8259 (Cascade Lake),3600 GB                 (4 * 900 GB NVMe SSD),100,6.528
+m5dn.metal,384,96,Intel Xeon Platinum 8259 (Cascade Lake),3600 GB                 (4 * 900 GB NVMe SSD),100,6.528
+d3en.12xlarge,192,48,Intel Xeon Platinum 8259 (Cascade Lake),335520 GB                 (24 * 13980 GB NVMe HDD),75,6.3086
+m5n.24xlarge,384,96,Intel Xeon Platinum 8259 (Cascade Lake),EBS only,100,5.712
+m5n.metal,384,96,Intel Xeon Platinum 8259 (Cascade Lake),EBS only,100,5.712
+r5dn.16xlarge,512,64,Intel Xeon Platinum 8259 (Cascade Lake),2400 GB                 (4 * 600 GB NVMe SSD),75,5.344
+r5b.16xlarge,512,64,Intel Xeon Platinum 8259 (Cascade Lake),EBS only,20,4.768
+r5n.16xlarge,512,64,Intel Xeon Platinum 8259 (Cascade Lake),EBS only,75,4.768
+m5dn.16xlarge,256,64,Intel Xeon Platinum 8259 (Cascade Lake),2400 GB                 (4 * 600 GB NVMe SSD),75,4.352
+d3en.8xlarge,128,32,Intel Xeon Platinum 8259 (Cascade Lake),223680 GB                 (16 * 13980 GB NVMe HDD),50,4.2058
+r5dn.12xlarge,384,48,Intel Xeon Platinum 8259 (Cascade Lake),1800 GB                 (2 * 900 GB NVMe SSD),50,4.008
+d3.8xlarge,256,32,Intel Xeon Platinum 8259 (Cascade Lake),47520 GB                 (24 * 1980 GB NVMe HDD),25,3.9955
+m5n.16xlarge,256,64,Intel Xeon Platinum 8259 (Cascade Lake),EBS only,75,3.808
+r5b.12xlarge,384,48,Intel Xeon Platinum 8259 (Cascade Lake),EBS only,12,3.576
+r5n.12xlarge,384,48,Intel Xeon Platinum 8259 (Cascade Lake),EBS only,50,3.576
+m5dn.12xlarge,192,48,Intel Xeon Platinum 8259 (Cascade Lake),1800 GB                 (2 * 900 GB NVMe SSD),50,3.264
+d3en.6xlarge,96,24,Intel Xeon Platinum 8259 (Cascade Lake),167760 GB                 (12 * 13980 GB NVMe HDD),40,3.154
+m5n.12xlarge,192,48,Intel Xeon Platinum 8259 (Cascade Lake),EBS only,50,2.856
+r5dn.8xlarge,256,32,Intel Xeon Platinum 8259 (Cascade Lake),1200 GB                 (2 * 600 GB NVMe SSD),25,2.672
+r5b.8xlarge,256,32,Intel Xeon Platinum 8259 (Cascade Lake),EBS only,10,2.384
+r5n.8xlarge,256,32,Intel Xeon Platinum 8259 (Cascade Lake),EBS only,25,2.384
+m5dn.8xlarge,128,32,Intel Xeon Platinum 8259 (Cascade Lake),1200 GB                 (2 * 600 GB NVMe SSD),25,2.176
+d3en.4xlarge,64,16,Intel Xeon Platinum 8259 (Cascade Lake),111840 GB                 (8 * 13980 GB NVMe HDD),25,2.103
+d3.4xlarge,128,16,Intel Xeon Platinum 8259 (Cascade Lake),23760 GB                 (12 * 1980 GB NVMe HDD),Up to 15,1.998
+m5n.8xlarge,128,32,Intel Xeon Platinum 8259 (Cascade Lake),EBS only,25,1.904
+r5dn.4xlarge,128,16,Intel Xeon Platinum 8259 (Cascade Lake),600 GB                 (2 * 300 GB NVMe SSD),Up to 25,1.336
+r5b.4xlarge,128,16,Intel Xeon Platinum 8259 (Cascade Lake),EBS only,Up to 10,1.192
+r5n.4xlarge,128,16,Intel Xeon Platinum 8259 (Cascade Lake),EBS only,Up to 25,1.192
+m5dn.4xlarge,64,16,Intel Xeon Platinum 8259 (Cascade Lake),600 GB                 (2 * 300 GB NVMe SSD),Up to 25,1.088
+d3en.2xlarge,32,8,Intel Xeon Platinum 8259 (Cascade Lake),55920 GB                 (4 * 13980 GB NVMe HDD),Up to 25,1.051
+d3.2xlarge,64,8,Intel Xeon Platinum 8259 (Cascade Lake),11880 GB                 (6 * 1980 GB NVMe HDD),Up to 15,0.999
+m5n.4xlarge,64,16,Intel Xeon Platinum 8259 (Cascade Lake),EBS only,Up to 25,0.952
+r5dn.2xlarge,64,8,Intel Xeon Platinum 8259 (Cascade Lake),300 GB                 NVMe SSD,Up to 25,0.668
+r5b.2xlarge,64,8,Intel Xeon Platinum 8259 (Cascade Lake),EBS only,Up to 10,0.596
+r5n.2xlarge,64,8,Intel Xeon Platinum 8259 (Cascade Lake),EBS only,Up to 25,0.596
+m5dn.2xlarge,32,8,Intel Xeon Platinum 8259 (Cascade Lake),300 GB                 NVMe SSD,Up to 25,0.544
+d3en.xlarge,16,4,Intel Xeon Platinum 8259 (Cascade Lake),27960 GB                 (2 * 13980 GB NVMe HDD),Up to 25,0.526
+d3.xlarge,32,4,Intel Xeon Platinum 8259 (Cascade Lake),5940 GB                 (3 * 1980 GB NVMe HDD),Up to 15,0.499
+m5n.2xlarge,32,8,Intel Xeon Platinum 8259 (Cascade Lake),EBS only,Up to 25,0.476
+r5dn.xlarge,32,4,Intel Xeon Platinum 8259 (Cascade Lake),150 GB                 NVMe SSD,Up to 25,0.334
+r5b.xlarge,32,4,Intel Xeon Platinum 8259 (Cascade Lake),EBS only,Up to 10,0.298
+r5n.xlarge,32,4,Intel Xeon Platinum 8259 (Cascade Lake),EBS only,Up to 25,0.298
+m5dn.xlarge,16,4,Intel Xeon Platinum 8259 (Cascade Lake),150 GB                 NVMe SSD,Up to 25,0.272
+m5n.xlarge,16,4,Intel Xeon Platinum 8259 (Cascade Lake),EBS only,Up to 25,0.238
+r5dn.large,16,2,Intel Xeon Platinum 8259 (Cascade Lake),75 GB                 NVMe SSD,Up to 25,0.167
+r5b.large,16,2,Intel Xeon Platinum 8259 (Cascade Lake),EBS only,Up to 10,0.149
+r5n.large,16,2,Intel Xeon Platinum 8259 (Cascade Lake),EBS only,Up to 25,0.149
+m5dn.large,8,2,Intel Xeon Platinum 8259 (Cascade Lake),75 GB                 NVMe SSD,Up to 25,0.136
+m5n.large,8,2,Intel Xeon Platinum 8259 (Cascade Lake),EBS only,Up to 25,0.119
+vt1.24xlarge,192,96,Intel Xeon Platinum 8259CL,EBS only,25,5.2
+vt1.6xlarge,48,24,Intel Xeon Platinum 8259CL,EBS only,6.25,1.3
+vt1.3xlarge,24,12,Intel Xeon Platinum 8259CL,EBS only,3.12,0.65
+c5d.24xlarge,192,96,Intel Xeon Platinum 8275L,3600 GB                 (4 * 900 GB NVMe SSD),25,4.608
+c5d.metal,192,96,Intel Xeon Platinum 8275L,3600 GB                 (4 * 900 GB NVMe SSD),25,4.608
+c5.24xlarge,192,96,Intel Xeon Platinum 8275L,EBS only,25,4.08
+c5.metal,192,96,Intel Xeon Platinum 8275L,EBS only,25,4.08
+c5d.12xlarge,96,48,Intel Xeon Platinum 8275L,1800 GB                 (2 * 900 GB NVMe SSD),12,2.304
+c5.12xlarge,96,48,Intel Xeon Platinum 8275L,EBS only,12,2.04
+u-24tb1.112xlarge,24576,448,Intel Xeon Platinum 8280L (Cascade Lake),EBS only,100,218.4
+u-18tb1.112xlarge,18432,448,Intel Xeon Platinum 8280L (Cascade Lake),EBS only,100,163.8
+x2iedn.32xlarge,4096,128,Intel Xeon Scalable (Icelake),3800 GB                 (2 * 1900 GB NVMe SSD),100,26.676
+x2iedn.metal,4096,128,Intel Xeon Scalable (Icelake),3800 GB                 (2 * 1900 GB NVMe SSD),100,26.676
+x2iedn.24xlarge,3072,96,Intel Xeon Scalable (Icelake),2850 GB                 (2 * 1425 GB NVMe SSD),75,20.007
+x2idn.32xlarge,2048,128,Intel Xeon Scalable (Icelake),3800 GB                 (2 * 1900 GB NVMe SSD),100,13.338
+x2idn.metal,2048,128,Intel Xeon Scalable (Icelake),3800 GB                 (2 * 1900 GB NVMe SSD),100,13.338
+x2iedn.16xlarge,2048,64,Intel Xeon Scalable (Icelake),1900 GB                 NVMe SSD,50,13.338
+x2idn.24xlarge,1536,96,Intel Xeon Scalable (Icelake),2850 GB                 (2 * 1425 GB NVMe SSD),75,10.0035
+x2idn.16xlarge,1024,64,Intel Xeon Scalable (Icelake),1900 GB                 NVMe SSD,50,6.669
+x2iedn.8xlarge,1024,32,Intel Xeon Scalable (Icelake),950 GB                 NVMe SSD,25,6.669
+x2iedn.4xlarge,512,16,Intel Xeon Scalable (Icelake),475 GB                 NVMe SSD,Up to 25,3.3345
+x2iedn.2xlarge,256,8,Intel Xeon Scalable (Icelake),237 GB                 NVMe SSD,Up to 25,1.6672
+x2iedn.xlarge,128,4,Intel Xeon Scalable (Icelake),118 GB                 NVMe SSD,Up to 25,0.8336
+u-12tb1.112xlarge,12288,448,Intel Xeon Scalable (Skylake),EBS only,100,109.2
+u-9tb1.112xlarge,9216,448,Intel Xeon Scalable (Skylake),EBS only,100,81.9
+u-6tb1.112xlarge,6144,448,Intel Xeon Scalable (Skylake),EBS only,100,54.6
+u-6tb1.56xlarge,6144,224,Intel Xeon Scalable (Skylake),EBS only,100,46.4039
+u-3tb1.56xlarge,3072,224,Intel Xeon Scalable (Skylake),EBS only,50,27.3
