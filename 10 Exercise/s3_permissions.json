@@ -1,0 +1,18 @@
+{
+    "Effect": "Allow",
+    "Action": [
+        "s3:GetObject"
+    ],
+    "Resource": [
+        "<input bucket>/*"
+    ]
+},
+{
+     "Effect": "Allow",
+     "Action": [
+         "s3:PutObject"
+     ],
+     "Resource": [
+        "<output bucket>/*"
+    ]
+}
