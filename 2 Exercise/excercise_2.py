@@ -112,8 +112,8 @@ def terminate_instance(ec2_resource, instance_state, instance_type):
 
 if __name__ == "__main__":
     ec2_resource = boto3.resource('ec2',
-                                  aws_access_key_id='AKIAQR5EPTPOLYPNLYOI',
-                                  aws_secret_access_key='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',
+                                  aws_access_key_id='',
+                                  aws_secret_access_key='',
                                   region_name='us-east-1'
                                   )
     start_instance(ec2_resource, instance_state='stopping', instance_type='t2.micro')
