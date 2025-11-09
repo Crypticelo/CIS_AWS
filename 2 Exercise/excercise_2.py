@@ -3,11 +3,11 @@ import boto3
 
 def create_instances(ec2_resource, number):
     instances = ec2_resource.create_instances(
-        ImageId='ami-063d43db0594b521b',
+        ImageId='',
         MinCount=1,
         MaxCount=number,
         InstanceType='t2.micro',
-        KeyName='anes'
+        KeyName=''
     )
 
     for instance in instances:
